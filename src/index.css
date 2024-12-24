@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400&display=swap');
+
+body {
+  font-family: 'Outfit', sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+button {
+  border-radius: 16px;
+  border: 1px solid rgba(110, 85, 73, 0.2);
+  padding: 8px 18px;
+  background-color: transparent;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #e6c200;
+}
+
+.continue-button {
+  width: 400px;
+  background-color: #ffd700;
+}
+
+.continue-button:hover {
+  background-color: #e6c200;
+}
+
+/* Additional styles for headings and spacing */
+h2 {
+  margin: 0;
+  text-align: center;
+  color: black;
+}
+
+
+.margin-spacing {
+  margin: 36px 0;
+  padding: 12px 0;
+}
